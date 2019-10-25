@@ -1,0 +1,11 @@
+{
+  "@microsoft/generator-sharepoint": {
+    "isCreatingSolution": true,
+    "environment": "onprem19",
+    "version": "1.9.1",
+    "libraryName": "spfx-scheduler",
+    "libraryId": "4257b8f9-ced1-4ff4-9d29-fa885d647622",
+    "packageManager": "npm",
+    "componentType": "webpart"
+  }
+}
