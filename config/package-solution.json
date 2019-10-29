@@ -3,7 +3,7 @@
   "solution": {
     "name": "spfx-scheduler-client-side-solution",
     "id": "4257b8f9-ced1-4ff4-9d29-fa885d647622",
-    "version": "1.0.0.0",
+    "version": "1.0.1.0",
     "includeClientSideAssets": true
   },
   "paths": {

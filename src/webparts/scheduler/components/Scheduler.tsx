@@ -6,10 +6,13 @@ import Calendar from './Calendar/Calendar';
 
 
 export default class Scheduler extends React.Component < ISchedulerProps, {} > {
+
+  
   public render(): React.ReactElement<ISchedulerProps> {
+    
     return(
       <div className = { styles.scheduler } >
-        <Calendar description="test"></Calendar>
+        <Calendar listName= {this.props.listName}  context={this.props.context} description="test"></Calendar>
       </div >
     );
   }

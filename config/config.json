@@ -15,8 +15,8 @@
     "jquery": "https://code.jquery.com/jquery-1.11.1.min.js",
     "moment": "https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.10.6/moment.min.js",
     "fullcalendar": "https://cdnjs.cloudflare.com/ajax/libs/fullcalendar/3.4.0/fullcalendar.min.js"
-  },  
+  },
   "localizedResources": {
-    "SchedulerWebPartStrings": "lib/webparts/scheduler/loc/{locale}.js"
+    "SchedulerWebPartStrings": "lib/webparts/scheduler/loc/{locale}.js"    
   }
 }

@@ -12,16 +12,21 @@
     "test": "gulp test"
   },
   "dependencies": {
-    "react": "15.6.2",
-    "react-dom": "15.6.2",
+    "@microsoft/sp-core-library": "^1.4.1",
+    "@microsoft/sp-http": "^1.9.1",
+    "@microsoft/sp-lodash-subset": "~1.4.0",
+    "@microsoft/sp-office-ui-fabric-core": "^1.4.1",
+    "@microsoft/sp-webpart-base": "~1.4.0",
+    "@types/es6-promise": "0.0.33",
+    "@types/prop-types": "^15.5.3",
     "@types/react": "15.6.6",
     "@types/react-dom": "15.5.6",
-    "@microsoft/sp-core-library": "~1.4.0",
-    "@microsoft/sp-webpart-base": "~1.4.0",
-    "@microsoft/sp-lodash-subset": "~1.4.0",
-    "@microsoft/sp-office-ui-fabric-core": "~1.4.0",
-    "@types/webpack-env": "1.13.1",
-    "@types/es6-promise": "0.0.33"
+    "fullcalendar": "^3.10.1",
+    "moment": "^2.24.0",
+    "office-ui-fabric-react": "^5.135.3",
+    "react": "^15.6.2",
+    "react-dom": "^15.6.2",
+    "typescript": "^3.6.4"
   },
   "resolutions": {
     "@types/react": "15.6.6"
@@ -30,9 +35,12 @@
     "@microsoft/sp-build-web": "~1.4.1",
     "@microsoft/sp-module-interfaces": "~1.4.1",
     "@microsoft/sp-webpart-workbench": "~1.4.1",
-    "gulp": "~3.9.1",
     "@types/chai": "3.4.34",
+    "@types/fullcalendar": "^3.8.0",
+    "@types/jquery": "^1.10.35",
     "@types/mocha": "2.2.38",
-    "ajv": "~5.2.2"
+    "@types/webpack-env": "^1.13.1",
+    "ajv": "~5.2.2",
+    "gulp": "~3.9.1"
   }
 }
